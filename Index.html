@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="styles/style.css">
+<script src="Scripts/index.js" defer></script>
+
+</head>
+<body>
+
+<header>
+    <h1><pre>Game Developpment | Multimedia Student</pre></h1>
+    <p>Im a Multimedia student with a primary focus on game developpment.
+        I endevor to learn things that are outside of my current skill set
+        to develop more efficient and modular systems that can be reused to make
+        bigger and better games.
+    </p>
+</header>
+
+<section class="projects">
+
+    <div class="project" style="--position: 1">
+        <h2>Complex Enemy AI</h2>
+        <p>My goal with this project was to develop a foundation for complex enemy behaviors.
+            Developping the necessary skills needed to be able to create any enemy or creature I wish to implement.</p>
+        <img src="Images/Snake.png" alt="SnakeAI">
+        <a href="#">View Project</a>
+    </div>
+
+    <div class="project" style="--position: 2">
+        <h2>Ability Upgrades</h2>
+        <p>My goal with this project was to develop a ability tree system.
+            Making it easy to use and modular, so that adding futur abilities to the ability tree would not take much effort.</p>
+        <img src="Images/AbilityTree.png" alt="AbilityUpgradePaths">
+        <a href="#">View Project</a>
+    </div>
+
+    <div class="project" style="--position: 3">
+        <h2>Ocean simulation</h2>
+        <p>My goal with this project was to simulate oceans similar to games like Subnautica or Raft.
+            To do this I had to not only convert mathematical formulas to shaders, but also perform some calculations to implement features like buoyancy.</p>
+        <img src="Images/Ocean.png" alt="OceanSimulation">
+        <a href="#">View Project</a>
+    </div>
+
+    <div class="project" style="--position: 4">
+        <h2>Coordinating a game</h2>
+        <p>My goal with this project was to develop a ways to coordinating events in a game.
+            Developping the skills and the intuition needed to make whatever occurs in a game happen in a desired order, figuring out ways for systems to communicate with each other effectively and efficiently.</p>
+        <img src="Images/DiceCoordination.png" alt="GameCoordination">
+        <a href="#">View Project</a>
+    </div>
+
+</section>
+
+<!--Click projects-->
+            <div class="flip_card" style="--position: 1">
+                <input type="checkbox" id="c2" class="card_input">
+                <label for="c2" class="card_label">
+                    <div class="flip_card_inner">
+
+                        <div class="card_flip">
+
+                            <div class="card_front">
+                                <img src="Images/Snake.png">
+                                <p class="cardTitle">Le Diable</p>
+                                <p class="clickHere">click card to flip</p>
+                            </div>
+                            <div class="card_back">
+                                <p>This card is done.</p>
+                                <span><a href="">Choisir cette carte</a></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip_card" style="--position: 2">
+                <input type="checkbox" id="c3" class="card_input">
+                <label for="c3" class="card_label">
+                    <div class="flip_card_inner">
+
+                        <div class="card_flip">
+
+                            <div class="card_front">
+                                <img src="Images/AbilityTree.png">
+                                <p class="cardTitle">Empereur</p>
+                                <p class="clickHere">click card to flip</p>
+                            </div>
+                            <div class="card_back">
+                                <p>This card is done.</p>
+                                <span><a>Choisir cette carte</a></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip_card" style="--position: 3">
+                <input type="checkbox" id="c4" class="card_input">
+                <label for="c4" class="card_label">
+                    <div class="flip_card_inner">
+
+                        <div class="card_flip">
+
+                            <div class="card_front">
+                                <img src="Images/Ocean.png">
+                                <p class="cardTitle">Pendu</p>
+                                <p class="clickHere">click card to flip</p>
+                            </div>
+                            <div class="card_back">
+                                <p>This card is done.</p>
+                                <span><a>Choisir cette carte</a></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip_card" style="--position: 4">
+                <input type="checkbox" id="c5" class="card_input">
+                <label for="c5" class="card_label">
+                    <div class="flip_card_inner">
+
+                        <div class="card_flip">
+
+                            <div class="card_front">
+                                <img src="Images/DiceCoordination.png">
+                                <p class="cardTitle">Tempérence</p>
+                                <p class="clickHere">click card to flip</p>
+                            </div>
+                            <div class="card_back">
+                                <p>This card is done.</p>
+                                <span><a>Choisir cette carte</a></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+<footer>
+    <p>© 2026 Kaito Charbonneau</p>
+</footer>
+
+</body>
+</html>
