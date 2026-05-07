@@ -13,11 +13,11 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR */
+/* navbar */
 
 .navbar {
     width: 100%;
-    padding: 25px 60px;
+    padding: 25px 150px;
 
     display: flex;
     justify-content: space-between;
@@ -87,10 +87,10 @@ body {
     font-size: 1.1rem;
 }
 
-/* PROJECTS */
+/* projects */
 
 .projects-section {
-    padding: 80px 40px;
+    padding: 80px 150px;
 }
 
 .section-title {
