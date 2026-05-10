@@ -83,8 +83,17 @@ body {
 
 .about-content p {
     margin-bottom: 20px;
-    color: #cccccc;
+    color: #ffffff;
     font-size: 1.1rem;
+}
+
+.seperationBar {
+    position: absolute;
+    bottom: 18%;
+    width: 100%;
+    height: 1px;
+    z-index: 1;
+    background-color: #ffffff;
 }
 
 /* projects */
